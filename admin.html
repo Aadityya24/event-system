@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin Dashboard</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        button { padding: 10px 15px; background-color: #28a745; color: white; border: none; cursor: pointer; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Admin Dashboard - Live Attendance</h1>
+    <button onclick="window.location.href='http://localhost:3000/export'">Download Attendance Report</button>
+    <table id="attendanceTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+
+    <script src="admin.js"></script>
+</body>
+</html>

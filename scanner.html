@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QR Code Scanner</title>
+    <style>
+         body { font-family: sans-serif; }
+        #qr-reader { width: 500px; margin: auto; }
+        #result { text-align: center; font-size: 1.2rem; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Scan Participant QR Code</h1>
+    <div id="qr-reader"></div>
+    <div id="result">Scanning...</div>
+
+    <script src="https://unpkg.com/html5-qrcode@2.0.9/dist/html5-qrcode.min.js"></script>
+    <script src="scanner.js"></script>
+</body>
+</html>
